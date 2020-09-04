@@ -39,6 +39,10 @@ h2 {
   flex-wrap: wrap;
 }
 
+.lets-cook {
+  background-color: #0fb9b1;
+}
+
 form {
   background-color: rgba(225, 225, 225, .9);
   margin: 5px 60px;
@@ -54,6 +58,7 @@ form {
 }
 
 input {
+  float: left;
   display: flex;
   flex-direction: row;
 }

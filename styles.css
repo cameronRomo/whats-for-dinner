@@ -3,8 +3,9 @@ body {
   margin: 0;
 }
 
-h2 {
-  padding: 8px;
+h3 {
+  padding: 10px 8px 0px 8px;
+  margin: 16px;
 }
 .heading {
   height: 10%;
@@ -16,11 +17,13 @@ h2 {
 .add-recipe {
   padding: 4px 8px;
   margin: 16px;
+  border-radius: 8px;
+  border: thin;
 }
 
 
 .prompt {
-  font-size: 24px;
+padding: 10px 8px 0px 8px;
 }
 
 .required {
@@ -40,15 +43,21 @@ h2 {
 }
 
 .lets-cook {
-  background-color: #0fb9b1;
+  width: 33%;
+  padding: 16px 8px;
+  margin-bottom: 38px;
+  margin-left: 25px;
+  border-radius: 8px;
+  border: thin;
+  background-color: #0fb9b1
 }
 
 form {
   background-color: rgba(225, 225, 225, .9);
   margin: 5px 60px;
+  padding: 30px 8px 10px 8px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: flex-start;
   justify-content: space-between;
   border: solid thin;
@@ -61,6 +70,15 @@ input {
   float: left;
   display: flex;
   flex-direction: row;
+}
+
+.meal {
+  margin: 15px 0px 0px 40px;
+}
+
+svg {
+  height: 50%;
+  padding-top: 15%;
 }
 
 COLORS

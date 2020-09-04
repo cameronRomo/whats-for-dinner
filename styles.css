@@ -4,7 +4,7 @@ body {
 }
 
 h2 {
-  margin: 8px 8px;
+  padding: 8px;
 }
 .heading {
   height: 10%;
@@ -18,15 +18,50 @@ h2 {
   margin: 16px;
 }
 
-.background-image {
+
+.prompt {
+  font-size: 24px;
+}
+
+.required {
+  color: #ee5253;
+}
+
+.dish-type {
+  background-image: url("./assets/burger-friends.jpg");
+  background-size: cover;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+form {
+  background-color: rgba(225, 225, 225, .9);
+  margin: 5px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  justify-content: space-between;
+  border: solid thin;
+  width: 40%;
+  min-width: 300px;
+  height: 50%;
+}
+
+input {
+  display: flex;
+  flex-direction: row;
 }
 
 COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
-red - #ee5253
+red - #ee5253;
 
 */

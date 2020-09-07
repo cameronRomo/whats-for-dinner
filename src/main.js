@@ -1,9 +1,7 @@
 var secondForm = document.querySelector('.recipe');
-// var side = document.getElementById('#side');
-// var main = document.querySelector('#main-dish');
-// var desert = document.querySelector('#dessert');
+var cookPot = document.querySelector('.form2-display');
 var sideValue = document.getElementById('side');
-
+var mainDish = document.getElementById('main-dish')
 var letsCookButton = document.querySelector('.lets-cook');
 
 letsCookButton.addEventListener('click', displayRandomSide);
@@ -14,9 +12,10 @@ function displayRandomSide() {
   event.preventDefault();
   if (sideValue.checked === true) {
     randomDish(sides);
+    cookPot.innerHTML = '';
     secondForm.insertAdjacentHTML('afterbegin', `
-    <h3>You should make:</h3>
-    <h1>${newDish}</h1>`
+    <h3 class="polite-gesture">You should make:</h3>
+    <h1 class="random-dish">${newDish}!</h1>`
     );
   }
 };
@@ -25,10 +24,8 @@ function randomDish(dish) {
   for (var i = 0; i < dish.length; i++) {
     newDish = dish[getRandomIndex(dish)];
   }
-  // var randomSide = sides[getRandomIndex(sides)];
-  // var randomMain = mains[getRandomIndex(mains)];
-  // var randomDessert = desserts[getRandomIndex(desserts)];
 };
+
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 };

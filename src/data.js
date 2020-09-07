@@ -17,7 +17,7 @@ var mains = [
 'Shakshuka',
 'Thai Yellow Curry',
 'Bibimbap',
-'Chicken Parmesean,'
+'Chicken Parmesean',
 'Butternut Squash Soup',
 'BBQ Chicken Burgers',
 'Ramen',

@@ -79,6 +79,23 @@ svg {
   padding-top: 15%;
 }
 
+.polite-gesture {
+  display: flex;
+  justify-content: center;
+  padding-top: 15%;
+}
+
+.random-dish {
+  font-size: 3em;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe::after {
+  height: 25%;
+}
 COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
